@@ -15,9 +15,4 @@
   :profiles {:dev {:plugins [[lein-ring "0.12.0"]]}
              :1.8 {:dependencies [[org.clojure/clojure "1.8.0"]
                                   [metosin/spec-tools "0.3.2" :exclusions [org.clojure/spec.alpha]]
-                                  [clojure-future-spec "1.9.0-alpha17"]]}}
-  :publish {:site "D3 教養としてのClojure"
-            :author "中村 研二"
-            :email "kenji@signifier.jp"
-            :theme "stark"
-            :output "docs"})
+                                  [clojure-future-spec "1.9.0-alpha17"]]}})

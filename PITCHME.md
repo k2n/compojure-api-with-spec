@@ -47,7 +47,7 @@
 
 ## プロジェクトの生成と設定
 
-```
+```bash
 lein new compojure-api-with-spec
 ```
 
@@ -55,4 +55,8 @@ lein new compojure-api-with-spec
 
 ---?code=project.clj&lang=clojure
 
+@[1-5]
+@[6-10]
+@[11-13]
 
+---

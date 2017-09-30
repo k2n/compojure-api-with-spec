@@ -32,8 +32,8 @@
     - Clojure.specで静的型付き言語とは違ったアプローチでエラーチェック |
 - 起動が遅くて... |
     - REPL駆動開発+org.clojure/tools.namespaceによるホットリローディング |
-- カッコが多くて読みづらそう | 
-    - Don't think! Feel. |
+- カッコが多くて読み書きしづらそう | 
+    - Pareditモードを使えばカッコを気にせずコーディングできる！|
 
 ---
 
@@ -84,7 +84,7 @@ lein new compojure-api-with-spec
 
 ---
 
-### spec-routes
+### spec_routes.clj
 
 ---?code=src/compojure_api_with_spec/spec_routes.clj&lang=clojure
 
@@ -101,3 +101,20 @@ lein new compojure-api-with-spec
 @[76-80]
 
 ---
+
+### schema_routes.clj
+
+---?code=src/compojure_api_with_spec/schema_routes.clj&lang=clojure
+
+@[1-5]
+@[11-14]
+@[16-24]
+@[7-9]
+
+---
+
+### 終わりに
+
+- clojure.specとcompojure-api v2はまだα版 |
+- 主流はPlumatic Schemaからclojure.specへ | 
+- GraphQL(Lanicia by Walmart Lab)の統合 | 

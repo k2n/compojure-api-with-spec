@@ -38,12 +38,21 @@
 
 ## フレームワーク
 
-- Swagger...REST APIを定義するOpenAPIスペックに準拠し、設計、ドキュメントなどをサポートするツール郡 
+- Swagger...REST APIを定義するOpenAPIスペックに準拠し、設計、ドキュメントなどをサポートするツール群
 - clojure.spec...データ構造を定義し、バリデーションなどを行うライブラリ |
 - Plumatic Schema...clojure.specと類似のサードパーティ実装 |
 - Spec-tools...clojure.specにDynamic conforming(Coercion)やJSONスキーマ、Swaggerサポート機能を付加するライブラリ |
 
 ---
 
+## プロジェクトの生成と設定
+
+```
+lein new compojure-api-with-spec
+```
+
+---
+
+---?code=project.clj&lang=clojure
 
 

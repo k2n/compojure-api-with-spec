@@ -29,11 +29,11 @@
 ### Clojureって...
 
 - 型がないから心配
-- Clojure.specで静的型付き言語とは違ったアプローチでエラーチェック |
+    - Clojure.specで静的型付き言語とは違ったアプローチでエラーチェック |
 - 起動が遅くて... |
-- REPL駆動開発+org.clojure/tools.namespaceによるホットリローディング |
+    - REPL駆動開発+org.clojure/tools.namespaceによるホットリローディング |
 - カッコが多くて読みづらそう | 
-- Don't think! Feel. |
+    - Don't think! Feel. |
 
 ---
 

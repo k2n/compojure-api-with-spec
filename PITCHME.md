@@ -11,7 +11,7 @@
 
 * コードとAPIデザインの乖離を無くし、メンテナンスコストを最小に抑える
 * Clojureの動的言語を活用したクイック・ターンアラウンドな開発サイクル
-* [Clojure.spec](https://www.thoughtworks.com/radar/tools/clojure-spec)や[Plumatic Schema](https://github.com/plumatic/schema)を活用し、Eric Evansの[Ubiquitous Language](https://www.ogis-ri.co.jp/otc/hiroba/technical/DDDEssence/chap1.html#UbiquitousLanguage), [Model-Driven Design](https://www.ogis-ri.co.jp/otc/hiroba/technical/DDDEssence/chap1.html#ModelDrivenDesign), [Hands-On Modeler](https://www.ogis-ri.co.jp/otc/hiroba/technical/DDDEssence/chap1.html#HandsOnModeler)を指向する。
+* [Clojure.spec](https://www.thoughtworks.com/radar/tools/clojure-spec)や[Plumatic Schema](https://github.com/plumatic/schema)の活用
 
 ---
 
@@ -23,6 +23,17 @@
 
 > Don't think! Feel. -- Bruce Lee
 ![Bruce Lee- Don't think, feel!!!](https://i.makeagif.com/media/11-28-2015/I2ALwE.gif)
+
+---
+
+### Clojureって...
+
+* 型がないから心配
+    * Clojure.specで静的型付き言語とは違ったアプローチでエラーチェック |
+* 起動が遅くて... |
+    * REPL駆動開発+org.clojure/tools.namespaceによるホットリローディング |
+* カッコが多くて読みづらそう | 
+    * Don't think! Feel. |
 
 ---
 

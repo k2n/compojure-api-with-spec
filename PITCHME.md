@@ -66,7 +66,7 @@ lein new compojure-api-with-spec
 
 ### project.clj 
 
----?code=project.clj&lang=clojure
+?code=project.clj&lang=clojure
 
 @[1-5]
 @[6-10]
@@ -76,10 +76,28 @@ lein new compojure-api-with-spec
 
 ### handler.clj
 
----?code=src/compojure_api_with_spec/handler.clj&lang=clojure
+?code=src/compojure_api_with_spec/handler.clj&lang=clojure
 
 @[1-5]
 @[7-18]
 @[19-21]
+
+---
+
+### spec-routes
+
+?code=src/compojure_api_with_spec/spec_routes.clj&lang=clojure
+
+@[1-8]
+@[10-17]
+@[45-48]
+@[50-57]
+@[59-63]
+@[65-68]
+@[40-43]
+@[28-38]
+@[19-26]
+@[70-74]
+@[76-80]
 
 ---

@@ -12,8 +12,7 @@
          :async? true
          :nrepl {:start? true}}
   :uberjar-name "server.jar"
-  :profiles {:dev {:dependencies [[im.chit/lucid.publish    "1.3.13"]] 
-                   :plugins [[lein-ring "0.12.0"]]}
+  :profiles {:dev {:plugins [[lein-ring "0.12.0"]]}
              :1.8 {:dependencies [[org.clojure/clojure "1.8.0"]
                                   [metosin/spec-tools "0.3.2" :exclusions [org.clojure/spec.alpha]]
                                   [clojure-future-spec "1.9.0-alpha17"]]}}

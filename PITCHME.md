@@ -1,13 +1,13 @@
 ---
 
-## clojure.specを活用したコード・ファーストスタイルのRESTサービス開発
-<br>
+#### clojure.specを活用したコード・ファーストスタイルのRESTサービス開発
+
 	- D3 Meetup 教養としてのClojure 2017/10/4
 	- 株式会社シグニファイア 代表 中村研二
 
 ---
 
-## 紹介したいこと
+#### 紹介したいこと
 
 * コードとAPIデザインの乖離を無くし、メンテナンスコストを最小に抑える
 * Clojureの動的言語を活用したクイック・ターンアラウンドな開発サイクル
@@ -15,7 +15,7 @@
 
 ---
 
-## Out of Scope
+#### Out of Scope
 
 * Clojureの文法解説
 * Compojure-apiの詳細な使い方
@@ -26,7 +26,7 @@
 
 ---
 
-## フレームワーク
+#### フレームワーク
 
 - Leiningen ... ビルドツール 
 - REPL...対話開発環境 Read, Eval, Print, and Loop |
@@ -36,7 +36,7 @@
 
 ---
 
-## フレームワーク
+#### フレームワーク
 
 - Swagger...REST APIを定義するOpenAPIスペックに準拠し、設計、ドキュメントなどをサポートするツール群
 - clojure.spec...データ構造を定義し、バリデーションなどを行うライブラリ |
@@ -45,7 +45,7 @@
 
 ---
 
-## プロジェクトの生成と設定
+#### プロジェクトの生成と設定
 
 ```bash
 lein new compojure-api-with-spec
@@ -58,5 +58,13 @@ lein new compojure-api-with-spec
 @[1-5]
 @[6-10]
 @[11-13]
+
+---
+
+---?code=src/compojure_api_with_spec/handler.clj&lang=clojure
+
+@[1-5]
+@[7-15]
+@[16-18]
 
 ---

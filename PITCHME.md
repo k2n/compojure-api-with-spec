@@ -30,19 +30,18 @@
 
 - Leiningen ... ビルドツール 
 - REPL...対話開発環境 Read, Eval, Print, and Loop |
-- [Ring](https://github.com/ring-clojure/ring)...HTTPサーバ抽象化フレームワーク |
-- [Compojure](https://github.com/weavejester/compojure)...Ring上で動作するルーティングライブラリ |
-- [Compojure-api](https://github.com/metosin/compojure-api)...Compojure上でREST API用の機能を追加したライブラリ |
+- Ring...HTTPサーバ抽象化フレームワーク |
+- Compojure...Ring上で動作するルーティングライブラリ |
+- Compojure-api...Compojure上でREST API用の機能を追加したライブラリ |
 
 ---
 
 ## フレームワーク
 
-- [Swagger](https://swagger.io/)...REST APIを定義するOpenAPIスペックに準拠し、設計、ドキュメントなどをサポートするツール郡 
-- [clojure.spec](https://clojure.org/about/spec)...データ構造を定義し、バリデーションなどを行うライブラリ |
-- [Plumatic Schema](https://github.com/plumatic/schema)...clojure.specと類似のサードパーティ実装 |
-- [Spec-tools](https://github.com/metosin/spec-tools)...clojure.specにDynamic conforming(Coercion)
-やJSONスキーマ、Swaggerサポート機能を付加するライブラリ |
+- Swagger...REST APIを定義するOpenAPIスペックに準拠し、設計、ドキュメントなどをサポートするツール郡 
+- clojure.spec...データ構造を定義し、バリデーションなどを行うライブラリ |
+- Plumatic Schema...clojure.specと類似のサードパーティ実装 |
+- Spec-tools...clojure.specにDynamic conforming(Coercion)やJSONスキーマ、Swaggerサポート機能を付加するライブラリ |
 
 ---
 

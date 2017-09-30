@@ -10,9 +10,12 @@
     {:ui "/"
      :spec "/swagger.json"
      :data {:info {:title "Clojureでコード・ファーストなSwagger駆動REST API"}
-            :tags [{:name "validation" :description "clojure.specによるバリデーション"}
-                   {:name "coercion" :description "clojure.specでコアーション"}
-                   {:name "schema" :description "Plumatic Schemaによるバリデーション"}]}}}
+            :tags [{:name "validation"
+                    :description "clojure.specによるバリデーション"}
+                   {:name "coercion"
+                    :description "clojure.specでコアーション"}
+                   {:name "schema"
+                    :description "Plumatic Schemaによるバリデーション"}]}}}
    spec-validation-routes
    spec-coercion-routes
    schema-routes))

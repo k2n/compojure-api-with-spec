@@ -1,6 +1,7 @@
 # compojure-api-with-spec
 
-<iframe width='770' height='515' src='https://gitpitch.com/k2n/compojure-api-with-spec/pitch?grs=github&t=black' frameborder='0' allowfullscreen></iframe>
+## Presentation
+[Slide for D3 Meetup on 10/4/17](https://gitpitch.com/k2n/compojure-api-with-spec)
 
 ## Discussion
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/d3_clojure/Lobby)

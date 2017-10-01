@@ -95,7 +95,9 @@ lein new compojure-api-with-spec
 
 ---
 
-### sepc_coercion_routes.clj
+### spec_coercion_routes.clj
+
+---?code=src/compojure_api_with_spec/spec_coercion_routes.clj&lang=clojure
 
 @[1-8]
 @[43-46]
@@ -104,6 +106,7 @@ lein new compojure-api-with-spec
 @[25-35]
 @[16-23]
 
+---
 
 ### 終わりに
 

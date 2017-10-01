@@ -1,0 +1,7 @@
+element.style {
+  width: 1200px;
+}
+
+.reveal pre code {
+  max-width: 1200px;
+}

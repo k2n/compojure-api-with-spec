@@ -11,7 +11,7 @@
 
 * コードとAPIデザインの乖離を無くし、メンテナンスコストを最小に抑える
 * Clojureの動的言語を活用したクイック・ターンアラウンドな開発サイクル
-* [Clojure.spec](https://www.thoughtworks.com/radar/tools/clojure-spec)や[Plumatic Schema](https://github.com/plumatic/schema)の活用
+* [Clojure.spec](https://www.thoughtworks.com/radar/tools/clojure-spec)の活用例
 
 ---
 
@@ -19,7 +19,7 @@
 
 * Clojureの文法解説
 * Compojure-apiの詳細な使い方
-* Clojure.spec/Plumatic Schemaの詳細
+* Clojure.specの詳細
 
 > Don't think! Feel. -- Bruce Lee
 ![Bruce Lee- Don't think, feel!!!](https://i.makeagif.com/media/11-28-2015/I2ALwE.gif)
@@ -51,7 +51,6 @@
 
 - Swagger...REST APIを定義するOpenAPIスペックに準拠し、設計、ドキュメントなどをサポートするツール群
 - clojure.spec...データ構造を定義し、バリデーションなどを行うライブラリ |
-- Plumatic Schema...clojure.specと類似のサードパーティ実装 |
 - Spec-tools...clojure.specにDynamic conforming(Coercion)やJSONスキーマ、Swaggerサポート機能を付加するライブラリ |
 
 ---
@@ -78,43 +77,36 @@ lein new compojure-api-with-spec
 
 ---?code=src/compojure_api_with_spec/handler.clj&lang=clojure
 
-@[1-5]
-@[7-18]
-@[19-21]
+@[1-4]
+@[6-17]
 
 ---
 
-### spec_routes.clj
+### spec_validation_routes.clj
 
----?code=src/compojure_api_with_spec/spec_routes.clj&lang=clojure
+---?code=src/compojure_api_with_spec/spec_validation_routes.clj&lang=clojure
+
+@[1-5]
+@[29-32]
+@[34-41]
+@[43-47]
+@[7-17]
+@[19-27]
+
+---
+
+### sepc_coercion_routes.clj
 
 @[1-8]
-@[10-17]
-@[45-48]
-@[50-57]
-@[59-63]
-@[65-68]
-@[40-43]
-@[28-38]
-@[19-26]
-@[70-74]
-@[76-80]
+@[43-46]
+@[10-14]
+@[37-41]
+@[25-35]
+@[16-23]
 
----
-
-### schema_routes.clj
-
----?code=src/compojure_api_with_spec/schema_routes.clj&lang=clojure
-
-@[1-5]
-@[11-14]
-@[16-24]
-@[7-9]
-
----
 
 ### 終わりに
 
+- 今回の例はマクロを多用したDSL的な使われ方。通常はこれほどマジカルではない。|
 - clojure.specとcompojure-api v2はまだα版 |
-- 主流はPlumatic Schemaからclojure.specへ | 
 - GraphQL(Lanicia by Walmart Lab)の統合 | 

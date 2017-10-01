@@ -1,8 +1,7 @@
 (ns compojure-api-with-spec.handler
   (:require [compojure.api.sweet :refer [api]]
-            [compojure-api-with-spec.schema-routes :refer [schema-routes]]
-            [compojure-api-with-spec.spec-routes :refer [spec-validation-routes
-                                                         spec-coercion-routes]]))
+            [compojure-api-with-spec.spec-coercion-routes :refer [spec-coercion-routes]]
+            [compojure-api-with-spec.spec-validation-routes :refer [spec-validation-routes]]))
 
 (def app
   (api
@@ -13,9 +12,6 @@
             :tags [{:name "validation"
                     :description "clojure.specによるバリデーション"}
                    {:name "coercion"
-                    :description "clojure.specでコアーション"}
-                   {:name "schema"
-                    :description "Plumatic Schemaによるバリデーション"}]}}}
+                    :description "clojure.specでコアーション"}]}}}
    spec-validation-routes
-   spec-coercion-routes
-   schema-routes))
+   spec-coercion-routes))

@@ -1,5 +1,11 @@
 # compojure-api-with-spec
 
+## Usage
+
+```bash
+lein ring server
+```
+
 ## Presentation
 [Slide for D3 Meetup on 10/4/17](https://gitpitch.com/k2n/compojure-api-with-spec)
 

@@ -12,7 +12,9 @@
          :async? true
          :nrepl {:start? true}}
   :uberjar-name "server.jar"
-  :profiles {:dev {:plugins [[lein-ring "0.12.0"]]}
+  :profiles {:dev {:dependencies [[peridot "0.5.0"]] 
+                   :plugins [[lein-ring "0.12.0"]
+                             [com.jakemccrary/lein-test-refresh "0.21.1"]]}
              :1.8 {:dependencies [[org.clojure/clojure "1.8.0"]
                                   [metosin/spec-tools "0.3.2" :exclusions [org.clojure/spec.alpha]]
                                   [clojure-future-spec "1.9.0-alpha17"]]}})

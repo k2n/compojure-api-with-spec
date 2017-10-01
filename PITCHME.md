@@ -2,8 +2,16 @@
 
 ### clojure.specを活用したコード・ファーストスタイルのRESTサービス開発
 
-	- D3 Meetup 教養としてのClojure 2017/10/4
-	- 株式会社シグニファイア 代表 中村研二
+    - D3 Meetup 教養としてのClojure 2017/10/4
+    - 株式会社シグニファイア 代表 中村研二
+
+---
+
+### 自己紹介
+
+* 18年間米国の金融・通信系スタートアップでエンジニア・マネージャ・ディレクターをしていました
+* 2015年から開発は100% Clojure。ミッションクリティカルシステムにも使用しました
+* 昨年Clojure+Docker+AWSの開発に特化した、株式会社シグニファイアを設立
 
 ---
 
@@ -12,6 +20,7 @@
 * コードとAPIデザインの乖離を無くし、メンテナンスコストを最小に抑える
 * Clojureの動的言語を活用したクイック・ターンアラウンドな開発サイクル
 * [Clojure.spec](https://www.thoughtworks.com/radar/tools/clojure-spec)の活用例
+* 質問・ディスカッションはGitterで！ https://gitter.im/d3_clojure 
 
 ---
 
@@ -52,11 +61,14 @@
 - Swagger...REST APIを定義するOpenAPIスペックに準拠し、設計、ドキュメントなどをサポートするツール群
 - clojure.spec...データ構造を定義し、バリデーションなどを行うライブラリ |
 - Spec-tools...clojure.specにDynamic conforming(Coercion)やJSONスキーマ、Swaggerサポート機能を付加するライブラリ |
-- Pridot...サーバーを起動することなくRing上のロジックをテストすることができるライブラリ |
+- Peridot...サーバーを起動することなくRing上のロジックをテストすることができるライブラリ |
 
 ---
 
 ### プロジェクトの生成と設定
+
+* Java8 (clojure 1.9beta1は9をサポート、Leiningenはまだclojure1.8依存だが2.8でJava9対応予定）
+* Leiningen 
 
 ```bash
 lein new compojure-api-with-spec
@@ -112,7 +124,7 @@ lein new compojure-api-with-spec
 
 ### spec_routes_test.clj
 
----?code=test/compojure-api-with-spec/spec_routes_test.clj&language=clojure
+---?code=test/compojure_api_with_spec/spec_routes_test.clj&language=clojure
 
 @[1-6]
 @[8-15]
@@ -126,4 +138,4 @@ lein new compojure-api-with-spec
 - clojure.specとcompojure-api v2はまだα版 |
 - GraphQL(Lanicia by Walmart Lab)の統合 | 
 - CQRS(Command Query Responsible Separation)への適用 | 
-- Clojure関連の開発・コンサル案件があればお声がけください！|
+- Clojureを導入したくなったらお声がけください！コンサル・開発承ります。|

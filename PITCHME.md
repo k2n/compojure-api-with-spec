@@ -52,6 +52,7 @@
 - Swagger...REST APIを定義するOpenAPIスペックに準拠し、設計、ドキュメントなどをサポートするツール群
 - clojure.spec...データ構造を定義し、バリデーションなどを行うライブラリ |
 - Spec-tools...clojure.specにDynamic conforming(Coercion)やJSONスキーマ、Swaggerサポート機能を付加するライブラリ |
+- Pridot...サーバーを起動することなくRing上のロジックをテストすることができるライブラリ |
 
 ---
 
@@ -68,8 +69,9 @@ lein new compojure-api-with-spec
 ---?code=project.clj&lang=clojure
 
 @[1-5]
-@[6-10]
-@[11-13]
+@[6-9]
+@[10-13]
+@[14-16]
 
 ---
 
@@ -105,6 +107,16 @@ lein new compojure-api-with-spec
 @[37-41]
 @[25-35]
 @[16-23]
+
+---
+
+### spec_routes_test.clj
+
+---?code=test/compojure-api-with-spec/spec_routes_test.clj&language=clojure
+
+@[1-6]
+@[8-15]
+@[71-84]
 
 ---
 

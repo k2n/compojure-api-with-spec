@@ -1,5 +1,9 @@
 # compojure-api-with-spec
 
+## Requirements
+* Java 8
+* [Leiningen](https://leiningen.org)
+
 ## Usage
 
 ```bash
@@ -7,7 +11,7 @@ lein ring server
 ```
 
 ## Presentation
-[Slide for D3 Meetup on 10/4/17](https://gitpitch.com/k2n/compojure-api-with-spec)
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/k2n/compojure-api-with-spec/master?grs=github&t=white)
 
 ## Discussion
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/d3_clojure/Lobby)

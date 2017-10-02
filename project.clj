@@ -13,4 +13,5 @@
   :uberjar-name "server.jar"
   :profiles {:dev {:dependencies [[peridot "0.5.0"]] 
                    :plugins [[lein-ring "0.12.0"]
-                             [com.jakemccrary/lein-test-refresh "0.21.1"]]}})
+                             [com.jakemccrary/lein-test-refresh "0.21.1"]]
+                   :global-vars {*warn-on-reflection* true}}})

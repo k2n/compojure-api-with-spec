@@ -136,6 +136,6 @@ lein new compojure-api-with-spec
 
 - 今回の例はマクロを多用したDSL的な使われ方。通常はこれほどマジカルではない。|
 - clojure.specとcompojure-api v2はまだα版 |
-- GraphQL(Lanicia by Walmart Lab)の統合 | 
+- GraphQL(Lacinia by Walmart Labs)の統合 | 
 - CQRS(Command Query Responsible Separation)への適用 | 
 - Clojureを導入したくなったらお声がけください！コンサル・開発承ります。|

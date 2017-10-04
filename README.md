@@ -30,7 +30,7 @@ lein test
 lein test-refresh
 ```
 
-See how it works from command line with [HTTPie[(https:httpie.org).  
+See how it works from command line with [HTTPie](https:httpie.org).  
 ```bash
 ./http_tests
 ```

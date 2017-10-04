@@ -9,9 +9,9 @@
 
 ### 自己紹介
 
-* 18年間米国の金融・通信系スタートアップでエンジニア・マネージャ・ディレクターをしていました
-* 2015年から開発は100% Clojure。ミッションクリティカルシステムにも使用しました
-* 昨年Clojure+Docker+AWSの開発に特化した、株式会社シグニファイアを設立
+* 18年間米国の金融・通信系スタートアップでエンジニア・マネージャ・ディレクターをしていました。
+* 2015年から開発は100% Clojure。ミッションクリティカルシステムにも使用しました。
+* 昨年Clojure+Docker+AWSの開発に特化した、株式会社シグニファイアを設立。
 
 ---
 
@@ -30,8 +30,8 @@
 * Compojure-apiの詳細な使い方
 * Clojure.specの詳細
 
-> Don't think! Feel. -- Bruce Lee
-![Bruce Lee- Don't think, feel!!!](https://i.makeagif.com/media/11-28-2015/I2ALwE.gif)
+> Don't think! Feel. --- Bruce Lee
+![Bruce Lee- Don't think, feel!!!](https://i.makeagif.com/media/11-28-2015/I2ALwE.gif =640x360)
 
 ---
 

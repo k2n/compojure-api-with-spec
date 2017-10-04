@@ -10,7 +10,7 @@
 (s/def ::name spec/string?)
 (s/def ::amount (assoc spec/bigdec?
                        :json-schema/type "string"
-                       :description "整数または少数を文字列として入力"))
+                       :description "整数または小数を文字列として入力"))
 (s/def ::amount-type spec/string?)
 
 (defn string->bigdec [_ x]

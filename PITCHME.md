@@ -91,8 +91,8 @@ lein new compojure-api-with-spec
 
 ---?code=src/compojure_api_with_spec/handler.clj&lang=clojure
 
-@[1-4]
-@[6-17]
+@[1-5]
+@[7-18]
 
 ---
 

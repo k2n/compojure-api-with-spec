@@ -1,7 +1,8 @@
 (ns compojure-api-with-spec.handler
   (:require [compojure.api.sweet :refer [api]]
-            [compojure-api-with-spec.spec-coercion-routes :refer [spec-coercion-routes]]
-            [compojure-api-with-spec.spec-validation-routes :refer [spec-validation-routes]]))
+            [compojure-api-with-spec
+             [spec-coercion-routes :refer [spec-coercion-routes]]
+             [spec-validation-routes :refer [spec-validation-routes]]]))
 
 (def app
   (api

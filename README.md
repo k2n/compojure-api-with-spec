@@ -1,6 +1,6 @@
 # compojure-api-with-spec
 
-## Requirements
+## Pre-requisites
 * Java 8
 * [Leiningen](https://leiningen.org)
 
@@ -10,17 +10,27 @@
 lein ring server
 ```
 
+## Deploy 
+
+```bash
+lein uberjar
+java -jar target/server.jar
+```
+
 ## Test
-* Run all tests
+
+Run all tests
 ```bash
 lein test
 ```
-* `test-refresh` lein plugin is handy if you want to make changes as it re-executes related tests. 
+
+`test-refresh` lein plugin is handy if you want to make changes as it re-executes tests affected by the updated code.
 ```bash
+
 lein test-refresh
 ```
 
-* See how it works from command line with [HTTPie[(https:httpie.org) command line utility. 
+See how it works from command line with [HTTPie[(https:httpie.org).  
 ```bash
 ./http_tests
 ```

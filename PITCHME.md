@@ -31,7 +31,7 @@
 * Clojure.specの詳細
 
 > Don't think! Feel. --- Bruce Lee
-![Bruce Lee- Don't think, feel!!!](https://i.makeagif.com/media/11-28-2015/I2ALwE.gif =640x360)
+![Bruce Lee- Don't think, feel!!!](https://i.makeagif.com/media/11-28-2015/I2ALwE.gif)
 
 ---
 

@@ -10,6 +10,21 @@
 lein ring server
 ```
 
+## Test
+* Run all tests
+```bash
+lein test
+```
+* `test-refresh` lein plugin is handy if you want to make changes as it re-executes related tests. 
+```bash
+lein test-refresh
+```
+
+* See how it works from command line with [HTTPie[(https:httpie.org) command line utility. 
+```bash
+./http_tests
+```
+
 ## Presentation
 [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/k2n/compojure-api-with-spec/master?grs=github&t=white)
 

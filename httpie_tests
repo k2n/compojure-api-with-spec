@@ -1,0 +1,24 @@
+#!/bin/bash 
+
+set -e
+set -x
+
+http_path=$(which http)
+
+if [ ! -x "$http_path" ]; then
+  echo "Install httpie. See https://httpie.org/"
+  exit 1
+fi
+
+# validation GET and POST
+http GET ":3000/validation?email-address=kenji@signifier.jp&current-age=48"
+http POST :3000/validation email=kenji@signifier.jp age:=49 
+
+http GET ":3000/coercion?name=kenji&amount=12.34"
+
+# note that amount is passed in as a string
+http POST :3000/coercion Accept:application/json amount=12.34
+http POST :3000/coercion Accept:application/edn amount=12.34
+
+# fail as amount is passed in as a number
+http POST :3000/coercion Accept:application/json amount:=12.34

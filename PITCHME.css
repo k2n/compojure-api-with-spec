@@ -12,6 +12,6 @@ section.present {
 }
 
 .reval .slides section>* {
-  mergin-left: 0;
-  margin-right 0;
+  mergin-left: 20;
+  margin-right 20;
 }

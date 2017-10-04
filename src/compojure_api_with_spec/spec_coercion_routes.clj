@@ -53,6 +53,6 @@
 
     (POST "/" []
       :body [{:keys [amount]} (s/keys :req-un [::amount])]
-      ;:return (s/keys :req-un [::amount-type ::amount])
+      :return (s/keys :req-un [::amount-type ::amount])
       (ok {:amount-type (str (type  amount))
            :amount amount}))))
